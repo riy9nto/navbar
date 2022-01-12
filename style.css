@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  background-image: linear-gradient(black, gray);
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+nav h1 {
+  padding-top: 10px;
+  padding-left: 30px;
+  font-size: 30px;
+  font-family: monospace;
+}
+.nav {
+  display: flex;
+  width: 450px;
+}
+h3 {
+  padding: 20px;
+}
+.inside {
+  display: flex;
+  align-items: center;
+}
+.home,
+.btw,
+.contact {
+  border-radius: 15px;
+}
+h3 {
+  padding: 20px;
+}
+h3:hover {
+  background-image: linear-gradient(green, darkblue);
+}
+a {
+  color: aqua;
+}
+.home {
+  background-image: linear-gradient(darkblue, green);
+}
+
+/* banner */
+.banner {
+  display: flex;
+  height: 90vh;
+  background-image: url(rexx.jpg);
+  background-size: cover;
+}
+.wc {
+  color: aqua;
+  padding: 50px;
+  margin: auto;
+  border: 1px solid;
+  border-radius: 30px;
+  background-color: rgba(30, 61, 61, 0.356);
+}
+
+/* about */
+.about {
+  padding: 20px;
+  color: aqua;
+  background-image: linear-gradient(gray, black);
+}
+p {
+  margin-top: 10px;
+}
+
+/* card */
+.container {
+  display: flex;
+  height: 90vh;
+}
+.card {
+  margin: auto;
+  height: 350px;
+  width: 250px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0 0 10px;
+}
+img {
+  height: 80px;
+  width: 80px;
+  margin-bottom: 30px;
+}
+.card h1 {
+  margin-bottom: 50px;
+}
